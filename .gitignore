@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------
+# DỮ LIỆU THẬT: không bao giờ được commit
+# Chỉ dữ liệu tổng hợp nhân tạo trong data/synthetic/ được công khai.
+# ---------------------------------------------------------------
+data/raw/
+data/private/
+data/interim/
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Khóa bí mật dùng để ẩn danh hóa và thông tin xác thực
+.env
+.env.*
+secrets/
+*.key
+*.pem
+anonymize_key*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Hệ điều hành và editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
